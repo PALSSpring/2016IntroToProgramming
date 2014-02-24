@@ -1,4 +1,6 @@
-all: hello-c-world
+TARGET = hello-c-world
+
+all: $(TARGET)
 
 %: %.cc
 	g++ -std=c++11 $< -o $@
@@ -6,3 +8,8 @@ all: hello-c-world
 %: %.c
 	gcc $< -o $@
 
+clean:
+		-rm -f *.o
+		-rm -f $(TARGET)
+		
+		
