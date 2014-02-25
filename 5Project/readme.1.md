@@ -1,12 +1,12 @@
-#Project: Create a world or a game world using what we know so far.
+Project: Create a world or a game world using what we know so far.
 
-##World Story: Brief description of world. What is compelling, why do people want to be in it?
+World Story: Brief description of world. What is compelling, why do people want to be in it?
 
-*World:
-*Name:
-*Scenes, Locations:
-*Characters:
-*Inventory:
+World:
+Name:
+Scenes, Locations:
+Characters:
+Inventory:
 
 
 When answering these questions think about what nouns, and verbs you've used.
@@ -18,7 +18,6 @@ When answering these questions think about what nouns, and verbs you've used.
 When creating variable we have to declare the variable to the program. Since the programming language
 has a specific way of creating variables we need to create a variable name, and a type the language recognizes.
 In C/C++ the simle types are for numbers, logic, and characters:
-```
 //Positive and negative integer, 16 bits with 0 in the middle.
 int foo;
 //unsigned integers are 16 bit positive starting at 0
@@ -27,7 +26,7 @@ unsigned int foo;
 float bar;
 double bar;
 long double;
-```
+
 
 Create a list of the nouns, or things and then list underneath each the nouns, and verbs with each type next to them.
 Ex:
