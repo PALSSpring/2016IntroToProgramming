@@ -1,7 +1,7 @@
 Compiling Hello World
 ====
 ```
-gcc hello-c-world.c -o hello-c-world
+gcc hello-c-world.c -o hello-c-world.out
 ```
 
 What's going on?
@@ -16,7 +16,7 @@ With the '-o' flag we tell the compile to output the executable to a file named 
 Running Hello World
 ====
 ```
-./hello-c-world
+./hello-c-world.out
 ```
 
 What is a make file?
