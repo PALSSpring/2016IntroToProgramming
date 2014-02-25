@@ -15,9 +15,12 @@ Scope: When and where you can use vairables.
 
 
 int foo;
+int bar;
 
-main() {
+int main() {
     foo = 0;
     printf("Hello World %d\n",foo);
+    
+    return 0;
 }
 

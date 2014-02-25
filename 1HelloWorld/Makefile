@@ -3,13 +3,13 @@ TARGET = hello-c-world
 all: $(TARGET)
 
 %: %.cc
-	g++ -std=c++11 $< -o $@
+	g++ -std=c++11 $< -o $@.out
 
 %: %.c
-	gcc $< -o $@
+	gcc $< -o $@.out
 
 clean:
 		-rm -f *.o
-		-rm -f $(TARGET)
+		-rm -f $(TARGET).out
 		
 		
