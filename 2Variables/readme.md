@@ -15,10 +15,10 @@ Ver much like scientific notation. Plus a bit for sign.
 Logical operations are also representated in C/C++. These are called booleans, and represent true or false. 
 
 ###Integers:
-int
-short
-long
-unsigned int
+int || 16 bit 
+short || 16 bit
+long || 32 bit
+unsigned int || 16 bit starts a 0
 
 ###Floating Point:
 float
@@ -31,11 +31,26 @@ bool
 char
 
 ### Memory: 
-bytes
+byte
 
 ##Assignment and initialization of variables
 
+int foo = 10;
+short foo = -10;
+long foo = 9999999;
+
+
 ##Expressions: allow you to evaluate and compare variables.
 
+foo =  1 + 1;
+foo = 2 * 3;
+foo = (2 * 3) / 4;
+bar = 1 + foo;
+bar = 2 * foo;
+bar = (3 * foo)/4;
+
 ##Scope: When and where you can use vairables.
+
+Variable declared in different places in the code effect the whether or not you can use a vairable.
+
 
