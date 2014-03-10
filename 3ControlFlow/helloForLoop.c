@@ -9,7 +9,7 @@
 int main() 
 {
     //A loop that counts to 10
-    for( int ii = 0; ii < 10; ii++)
+    for( int ii = 10; ii  < -1  ; ii--)
     {
         printf("Loop: %d\n",ii);
         sleep(1);
