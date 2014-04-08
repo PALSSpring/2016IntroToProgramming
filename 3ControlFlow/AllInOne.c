@@ -10,7 +10,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
-//#include <unistd.h>
+#include <unistd.h>
 
 /* Global variable prior to main */
 
@@ -28,7 +28,8 @@ int main()
     
     /*
     *
-    * Challenge print message when bar is greater than foo, equal to foo, and less than foo
+    * Challenge: 
+    * Print message when bar is greater than foo, equal to foo, and less than foo
     */
     for (int ii = 0; ii < 100; ii++)
     {
@@ -45,7 +46,7 @@ int main()
     * What is the average value of all the numbers selected?
     * How many times out of ii times was number selected, how likely was a number picked?
     */
-    for (int ii = 0; ii < 100; ii++)
+    for (int ii = 0; ii < 10; ii++)
     {
         printf("foo: %d; bar: %d; \n", foo);
     }
