@@ -1,7 +1,9 @@
 /*
 * HelloWhileLoop
 * Compile: 
-* gcc -std=gnu99 helloWhile.c -o helloWhile.out
+* gcc -std=gnu99 ./3ControlFlow/helloWhile.c -o ./3ControlFlow/helloWhile.out
+* Run:
+* ./3ControlFlow/helloWhile.out
 */
 #include <stdio.h>
 #include <unistd.h>

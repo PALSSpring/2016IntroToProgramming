@@ -1,11 +1,9 @@
 /*
 *AllInOne: Creating, Setting, Using variables, for, while, and if, then, else
-* Change directory:
-* cd 3ControlFlow
 * Compile: 
-* gcc -std=gnu99 AllInOne.c -o AllInOne.out
+* gcc -std=gnu99 ./3ControlFlow/AllInOne.c -o ./3ControlFlow/AllInOne.out
 * RUN:
-* ./helloVariable.out
+* ./3ControlFlow/AllInOne.out
 */
 #include <time.h>
 #include <stdio.h>

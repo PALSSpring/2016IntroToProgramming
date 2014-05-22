@@ -3,9 +3,9 @@
 * Change directory:
 * cd 2Variables 
 * Compile: 
-* gcc -std=gnu99 helloVariables.c -o helloVariables.out
+* gcc -std=gnu99 ./2Variables/helloVariables.c -o ./2Variables/helloVariables.out
 * RUN:
-* ./helloVariable.out
+* ./2Variables/helloVariables.out
 */
 #include <stdio.h>
 #include <unistd.h>

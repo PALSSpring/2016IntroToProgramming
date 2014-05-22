@@ -1,7 +1,8 @@
 /*
 *HelloForLoop
 * Compile: 
-* gcc -std=gnu99 helloForLoop.c -o helloForloop.out
+* gcc -std=gnu99 ./3ControlFlow/helloForLoop.c -o ./3ControlFlow/helloForloop.out
+* Run: ./3ControlFlow/helloForloop.out
 */
 #include <stdio.h>
 #include <unistd.h>
