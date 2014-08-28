@@ -1,7 +1,8 @@
 /*
 *HelloForLoop
 * Compile: 
-* gcc -std=gnu99 helloForLoop.c -o helloForloop.out
+* gcc -std=gnu99 ./3ControlFlow/helloForLoop.c -o ./3ControlFlow/helloForloop.out
+* Run: ./3ControlFlow/helloForloop.out
 */
 #include <stdio.h>
 #include <unistd.h>
@@ -9,7 +10,7 @@
 int main() 
 {
     //A loop that counts to 10
-    for( int ii = 0; ii < 10; ii++)
+    for( int ii = 10; ii  < -1  ; ii--)
     {
         printf("Loop: %d\n",ii);
         sleep(1);

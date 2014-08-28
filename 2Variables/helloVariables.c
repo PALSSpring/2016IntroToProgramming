@@ -1,7 +1,11 @@
 /*
 * Hello Variables: Creating, Setting, Using variables
+* Change directory:
+* cd 2Variables 
 * Compile: 
-* gcc -std=gnu99 helloVariables.c -o helloVariables.out
+* gcc -std=gnu99 ./2Variables/helloVariables.c -o ./2Variables/helloVariables.out
+* RUN:
+* ./2Variables/helloVariables.out
 */
 #include <stdio.h>
 #include <unistd.h>
@@ -16,7 +20,7 @@ int main()
 {
     /* Declare and inititialize variables at top of function */
     /* Assign values: 
-       -127, 
+       -127 
         0 
         128
         255
@@ -29,8 +33,8 @@ int main()
     */
     
     //create and initialize local variables
-    int fooInt;
-    short fooShort;
+    int fooInt = 32000;
+    short fooShort = 65000;
     long  fooLong;
     unsigned int  fooUint;
 
@@ -39,14 +43,14 @@ int main()
     double barDouble;
 
     //###Boolean: Logica Operators
-    bool barBool;
+    _Bool barBool;
 
     //###Characters: single characters
     char barChar;
     
     //setting global variables
-    foo = 32,000;
-    bar = 2,147,483,647;
+    foo = 757657676;
+    bar = 999 / 5 ;
     
     
     printf("foo = %d\n",foo);
@@ -59,6 +63,19 @@ int main()
        What happens when you use char type?
     */
     
+    printf("bar = %d\n",bar);
+    printf("size in bytes of bar = %d\n", sizeof(bar));
+    printf("size int bytes of integer: %d\n", sizeof(int));
+
+    fooShort = 65000;
+    printf("fooShort = %d\n",bar);
+    printf("size in bytes of fooShort = %d\n", sizeof(fooShort));
+    printf("size int bytes of short: %d\n", sizeof(short));
+    
+    
+    /* multiple values on one line */
+    printf("bar %d, foo %d\n", bar, foo);
+
     
     return 0;
 }

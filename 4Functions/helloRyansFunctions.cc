@@ -1,3 +1,9 @@
+/*
+* 
+* Compile:
+* g++   exercise1.c -o exercise1.out
+* Run:
+*/
 #include <iostream>
 #include <time.h>
 
