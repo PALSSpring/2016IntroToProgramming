@@ -92,6 +92,7 @@ Arduino works.
 * Difference between C and C++
 
 ###Week 7: Structures and Objects
+* Pointers
 * Structures
 ** syntax and use
 ** Incorporate into choose your own adventure
@@ -113,13 +114,29 @@ Arduino works.
 
 ###Week 9: Communication between users and machines
 
-###Week 10:
-###Week 11:
-###Week 12:
-###Week 13:
-###Week 14:
-###Week 15:
+###Week 10: Pointers in detail
+###Week 11: More objects
+###Week 12: Advanced communications with Arduino
+###Week 13: Controlling a robot from code
+###Week 14: Project Start
+###Week 15: In class project Hackathon
 ###Week 16: Final challenge celebration
 * Play the games
 * Use the machines
 * Code for a robot
+
+
+Integrate Goals:
+Version control with Git
+Collaborative project using push and pull
+Physical objects and virtual objects
+Code discussion
+Debugging physical and virtual projects
+Cloud coding and Local Coding
+Using the terminal (BASH)
+Compiling code from the terminal
+Compiling code from Makefiles
+
+???standard template library?
+??OpenFrameWorks?
+?Firmata?
