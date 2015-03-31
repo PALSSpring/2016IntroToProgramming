@@ -1,7 +1,9 @@
 /*
 * HelloWorld.c
 * Compile:
-* gcc HelloWorld.c -o HelloWorld.out
+* cd 1HelloWorld
+* gcc hello-c-world.c -o hello-world-c.o
+* ./hello-world-c.o
 */
 
 #include <stdio.h>
