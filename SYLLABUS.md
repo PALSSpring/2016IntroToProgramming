@@ -85,7 +85,7 @@ Arduino works.
 * Continue porting the choose your own adventure to Arduino
 * Review using functions
 * Introduction character and string handling
-** serial gathering information and sending information
+** Serial gathering information and sending information
 * Bread board a simple circuit to collect input from the user
 ** function like digitalRead() and analogRead() will be used
 * More new syntax and working with objects
