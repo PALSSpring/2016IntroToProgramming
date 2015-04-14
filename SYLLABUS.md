@@ -12,7 +12,7 @@ Spring 2015
 Tues: 1:30pm - 4:30pm
 
 Start: Jan 20, 2015
-End: May 12, 2015
+End: May 5, 2015
 
 Grading Policy:
 Everyone starts at 0. Each week counts towards participation. The class is very hands on, learning, and doing
