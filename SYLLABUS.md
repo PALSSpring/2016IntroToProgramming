@@ -16,13 +16,13 @@ End: May 5, 2015
 
 Grading Policy:
 Everyone starts at 0. Each week counts towards participation. The class is very hands on, learning, and doing
-happen mostly in class. So in person participation is a requirement, and not being there reduces points accrued.
+happen mostly in class. So in person participation is a requirement, and not being there reduces points accrued. (70%)
 
-Approximately, every three weeks will be a challenge assignment started in class and take two weeks to resolve.
+Approximately, every three weeks will be a challenge assignment started in class and take two weeks to resolve. (10%)
 
-Weekly, challenge problems will be done in class. As well as, smaller weekly challenges that are take home.
+Weekly, challenge problems will be done in class. As well as, smaller weekly challenges that are take home. (10%)
 
-There will be a final project at the end of class that demonstrates the application of the knowledge aquired during the class.
+There will be a final project at the end of class that demonstrates the application of the knowledge aquired during the class. (10%)
 
 Total Weeks: 16
 
