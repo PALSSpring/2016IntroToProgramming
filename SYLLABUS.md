@@ -38,7 +38,7 @@ Total Weeks: 16
 * Introduction to choose your own adventure
 * Create a story from everyone writing a sentence. Have the students write code that tells the story.
 
-###Week 2: Compiling Code and Variables
+###Week 2 [J 27]: Compiling Code and Variables
 * Getting input from the user
 * Introduction to variables
 * Coding math problems
@@ -49,7 +49,7 @@ Total Weeks: 16
 ** Create Madlib fill in the blank adventure
 *** Incorporate a principle of mathematics into the adventure
 
-###Week 3: Code flow
+###Week 3 [F 3]: Code flow
 * Sequence of code execution
 * What do you when you want to evaluate input from the user?
 ** if
@@ -64,7 +64,7 @@ Total Weeks: 16
 * Challenge Project Euler
 ** Problems 1 and 2
 
-###Week 4: Organizing code
+###Week 4 [F 10]: Organizing code
 * Introduction to functions
 ** How functions help prevent copy and pasting code
 ** How to handle many different situations and requirements
@@ -72,7 +72,7 @@ Total Weeks: 16
 ** Create a function that asks a question and verifies the a valid option was choosen.
 
 
-###Week 5: Introduction to Arduino with C++
+###Week 5 [F 17]: Introduction to Arduino with C++
 * What if the character in the adventure was a machine?
 * We will incorporate the knowledge from the previous weeks into learning how
 Arduino works.
@@ -81,7 +81,7 @@ Arduino works.
 * Port the choose your own adventure to Arduino
 * The new syntax features are using objects from C++
 
-###Week 6:
+###Week 6 [F 24]:
 * Continue porting the choose your own adventure to Arduino
 * Review using functions
 * Introduction character and string handling
@@ -91,13 +91,13 @@ Arduino works.
 * More new syntax and working with objects
 * Difference between C and C++
 
-###Week 7: Spring Break
+###Week 7 [M 3]: Spring Break
 
-###Week 8: Class canceled
-###Week 9: No students class cancleed
-###Week 10: 
-###Week 11: 2 students in class
-###Week 12:  Communication between users and machines
+###Week 8 [M 10]: Class canceled
+###Week 9 [M 17]: No students class cancleed
+###Week 10 [M 24]: 
+###Week 11 [M 31}: 2 students in class
+###Week 12 [A 7]:  Communication between users and machines
 * Learn the basics of the Arduino IDE
 * Structure of an Arduino Progra
 * Learn physical/electricl "Hello World!"
@@ -106,7 +106,7 @@ Arduino works.
 * Printing output
 * Getting input from the user
 
-###Week 13: Structures and Objects
+###Week 13 [A 14]: Structures and Objects
 * Attendance quiz
 * In class challenge
 * Final Project planning
@@ -120,7 +120,7 @@ Arduino works.
 ** Creature
 ** Health points?
 
-###Week 14: How to write and share libraries
+###Week 14 [A 21]: How to write and share libraries
 Attendance quiz
 In class challenge
 * Use libraries
@@ -131,9 +131,9 @@ In class challenge
 ** Should someone win?
 ** Does an adventure have a score?
 
-###Week 15:
+###Week 15 [A 28]:
 
-###Week 16: Final challenge celebration
+###Week 16 [M 5]: Final challenge celebration
 * Play the games
 * Use the machines
 * Code for a robot
