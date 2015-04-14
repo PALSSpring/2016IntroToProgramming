@@ -114,17 +114,18 @@ Arduino works.
 * Structures
 ** syntax and use
 ** Incorporate into choose your own adventure
-** How to use in Arduino
+
 * Create character object for choose your own adventure
 ** What name?
 ** Creature
 ** Health points?
 
 ###Week 14 [A 21]: How to write and share libraries
-Attendance quiz
-In class challenge
+* Attendance quiz
+* In class challenge
 * Use libraries
 * Create your own library
+
 * Create a game pattern
 ** What happens if your character dies?
 ** Can the game restart?
