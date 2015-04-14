@@ -26,7 +26,7 @@ There will be a final project at the end of class that demonstrates the applicat
 
 Total Weeks: 16
 
-###Week 1: Hello World
+###Week 1 [J 20]: Hello World
 * Hello World in C++
 * Introduction and find out what we all know about coding and c++
 * Introduce structure of course
