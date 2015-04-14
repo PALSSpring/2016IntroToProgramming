@@ -91,7 +91,26 @@ Arduino works.
 * More new syntax and working with objects
 * Difference between C and C++
 
-###Week 7: Structures and Objects
+###Week 7: Spring Break
+
+###Week 8: Class canceled
+###Week 9: No students class cancleed
+###Week 10: 
+###Week 11: 2 students in class
+###Week 12:  Communication between users and machines
+* Learn the basics of the Arduino IDE
+* Structure of an Arduino Progra
+* Learn physical/electricl "Hello World!"
+* Learn Serial "Hello World!"
+* Lear Wire "Hello World!"
+* Printing output
+* Getting input from the user
+
+###Week 13: Structures and Objects
+* Attendance quiz
+* In class challenge
+* Final Project planning
+* Negotiate syllabus* 
 * Structures
 ** syntax and use
 ** Incorporate into choose your own adventure
@@ -101,31 +120,19 @@ Arduino works.
 ** Creature
 ** Health points?
 
+###Week 14: How to write and share libraries
+Attendance quiz
+In class challenge
+* Use libraries
+* Create your own library
 * Create a game pattern
 ** What happens if your character dies?
 ** Can the game restart?
 ** Should someone win?
 ** Does an adventure have a score?
 
-###Week 8: How to write and share libraries
-* Use libraries
-* Create your own library
-
-###Week 9: Communication between users and machines
-* Learn the basics of the Arduino IDE
-* Structure of an Arduino Progra
-* Learn physical/electricl "Hello World!"
-* Learn Serial "Hello World!"
-* Lear Wire "Hello World!"
-* Printing output
-* Getting input from the user
-
-###Week 10:
-###Week 11:
-###Week 12:
-###Week 13:
-###Week 14:
 ###Week 15:
+
 ###Week 16: Final challenge celebration
 * Play the games
 * Use the machines
