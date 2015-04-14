@@ -5,7 +5,7 @@ materials are available in Github. Each student needs to create and account and 
 the course materials. That is where all assignements and challenges will be turned in. A majority of the
 coding will take place on https://c9.io. Class discussion will be held in https://gitter.io. This allows us
 to do code chat. That way I can talk about code properlly formatted and you the student can send me code
-examples that are easy to talk about and read. This chat channel will run the entire course.
+examples that are easy to talk about and read. This chat channel will run the entire course. Additionally, we'll be using the Arduino IDE and the Teensy 3.1 Microcontoller.
 
 Spring 2015
 
