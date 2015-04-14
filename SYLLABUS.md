@@ -33,7 +33,7 @@ Total Weeks: 16
 * Reference Materials are in Github
 * Create accounts and clone the semester's materials
 * Code Editor is Cloud9ide which is online code editing environment
-* Link Cloud9 account to your Github account
+ * Link Cloud9 account to your Github account
 * Clone your project from Github to http://c9.io
 * Introduction to choose your own adventure
 * Create a story from everyone writing a sentence. Have the students write code that tells the story.
@@ -42,34 +42,34 @@ Total Weeks: 16
 * Getting input from the user
 * Introduction to variables
 * Coding math problems
-* Types of numbers
-* plus, minus, division, multiplication, mod, exponents
+ * Types of numbers
+ * plus, minus, division, multiplication, mod, exponents
 * In class create a simple calculator
 * In the adventure story ask the user what should happen next.
-* Create Madlib fill in the blank adventure
-* Incorporate a principle of mathematics into the adventure
+ * Create Madlib fill in the blank adventure
+ * Incorporate a principle of mathematics into the adventure
 
 ###Week 3 [F 3]: Code flow
 * Sequence of code execution
 * What do you when you want to evaluate input from the user?
-** if
-*** greater, lesser, equals
-*** different kinds of variables
-** looping
-*** How do you hand the user or player not entering the right data?
-*** while loops
-*** for loops
-** More kinds of variables
+ * if
+  * greater, lesser, equals
+  * different kinds of variables
+ * looping
+  * How do you hand the user or player not entering the right data?
+  * while loops
+  * for loops
+ * More kinds of variables
 * Fibonacci series example
 * Challenge Project Euler
-** Problems 1 and 2
+ * Problems 1 and 2
 
 ###Week 4 [F 10]: Organizing code
 * Introduction to functions
-** How functions help prevent copy and pasting code
-** How to handle many different situations and requirements
+ * How functions help prevent copy and pasting code
+ * How to handle many different situations and requirements
 * Organize choose your own adventure into functions
-** Create a function that asks a question and verifies the a valid option was choosen.
+ * Create a function that asks a question and verifies the a valid option was choosen.
 
 
 ###Week 5 [F 17]: Introduction to Arduino with C++
@@ -85,9 +85,9 @@ Arduino works.
 * Continue porting the choose your own adventure to Arduino
 * Review using functions
 * Introduction character and string handling
-** Serial gathering information and sending information
+ * Serial gathering information and sending information
 * Bread board a simple circuit to collect input from the user
-** function like digitalRead() and analogRead() will be used
+ * function like digitalRead() and analogRead() will be used
 * More new syntax and working with objects
 * Difference between C and C++
 
@@ -112,13 +112,13 @@ Arduino works.
 * Final Project planning
 * Negotiate syllabus* 
 * Structures
-** syntax and use
-** Incorporate into choose your own adventure
+ * syntax and use
+ * Incorporate into choose your own adventure
 
 * Create character object for choose your own adventure
-** What name?
-** Creature
-** Health points?
+ * What name?
+ * Creature
+ * Health points?
 
 ###Week 14 [A 21]: How to write and share libraries
 * Attendance quiz
@@ -127,10 +127,10 @@ Arduino works.
 * Create your own library
 
 * Create a game pattern
-** What happens if your character dies?
-** Can the game restart?
-** Should someone win?
-** Does an adventure have a score?
+ * What happens if your character dies?
+ * Can the game restart?
+ * Should someone win?
+ * Does an adventure have a score?
 
 ###Week 15 [A 28]:
 
