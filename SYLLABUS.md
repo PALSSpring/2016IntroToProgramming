@@ -112,6 +112,13 @@ Arduino works.
 * Create your own library
 
 ###Week 9: Communication between users and machines
+* Learn the basics of the Arduino IDE
+* Structure of an Arduino Progra
+* Learn physical/electricl "Hello World!"
+* Learn Serial "Hello World!"
+* Lear Wire "Hello World!"
+* Printing output
+* Getting input from the user
 
 ###Week 10:
 ###Week 11:
