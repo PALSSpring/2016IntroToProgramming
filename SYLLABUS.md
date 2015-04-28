@@ -132,9 +132,15 @@ Arduino works.
  * Should someone win?
  * Does an adventure have a score?
 
-###Week 15 [A 28]:
+###Week 15 [A 28]: Pointers and Pass by Reference
+* In class work on final project
+ * Transform game descriptions and outline into code
+* Objects and pointers to objects
+* Object hiearchy
 
 ###Week 16 [M 5]: Final challenge celebration
 * Play the games
-* Use the machines
+ * Assess games what did you want to do and how close did you get?
+ * What would you add to the game in the future?
 * Code for a robot
+ * Use the machines: challenge write program to move a robotic arm
