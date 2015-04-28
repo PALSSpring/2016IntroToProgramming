@@ -132,11 +132,11 @@ Arduino works.
  * Should someone win?
  * Does an adventure have a score?
 
-###Week 15 [A 28]: Pointers and Pass by Reference
+###Week 15 [A 28]: Object Hierarchy, Pointers, Pass by Reference
 * In class work on final project
  * Transform game descriptions and outline into code
 * Objects and pointers to objects
-* Object hiearchy
+* Object hierarchy
 
 ###Week 16 [M 5]: Final challenge celebration
 * Play the games
