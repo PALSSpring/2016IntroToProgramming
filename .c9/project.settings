@@ -13,6 +13,9 @@
     "find.nak": {
         "@searchLimit": 100
     },
+    "general": {
+        "@stripws": false
+    },
     "language": {
         "@eslintrc": "true",
         "@instanceHighlight": "true",
@@ -23,6 +26,7 @@
     },
     "run": {
         "@path": "/.c9/runners",
+        "@runner": "C++ (simple)",
         "configs": {
             "@inited": "true",
             "json()": {}
