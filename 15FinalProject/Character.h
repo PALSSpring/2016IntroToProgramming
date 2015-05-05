@@ -12,6 +12,7 @@ class Character {
 public:
 
     string name;
+    string author;
     int health;
     int speed;
     int attackPower;
@@ -28,7 +29,12 @@ public:
     virtual string getShortName() {
         return name;
     }
-
+    
+    //get Author name
+    virtual string getAuthorName() {
+        author = name;
+        return author;
+    }
 
     //returns a std::string with the characters full name. Ex. Grog the Destroyer of Worlds
     //This name is used at each combat turn so should be a short or first name

@@ -4,6 +4,16 @@
 #include "Character.h"
 #include "plainCharacter.h"
 #include "Arena.h"
+#include "plainCharacter.h"
+#include "Zaincules.h"
+#include "AhmedalaliCharacter.h"
+#include "babtainCharacter.h"
+#include "RahafCharacter.h" 
+#include "EterCharacter.h"
+#include "MohammedCharacter.h"
+#include "FaisalCharacter.h"
+#include "AbdulrahmanCharacter.h"
+#include "AbdulmalekCharacter.h"
 //needed for rand, srand
 #include <stdlib.h>
 
@@ -17,7 +27,7 @@ string player2;
 int p1num;
 int p2num;
 int arenaNum;
-int chanceSuccess = 100;
+int chanceSuccess = 75;
 
 string quitStatus;
 
@@ -36,25 +46,88 @@ int setup() {
     Characters.push_back(dayRobot);
     
     
-    plainCharacter* nightRobot = new plainCharacter();
-    nightRobot->name = "nightRobot";
-    Characters.push_back(nightRobot);
+    Zaincules* zaincules = new Zaincules();
+    zaincules->name = "Zaincules";
+    Characters.push_back(zaincules);
+    
+    RahafCharacter* Einstein = new RahafCharacter(); 
+    Einstein->name = "Einstein";
+    Characters.push_back(Einstein);
+    
+    AbdulmalekCharacter* Pi = new AbdulmalekCharacter(); 
+    Pi->name = "Pi";
+    Characters.push_back(Pi);
+    
+    EterCharacter* Blake = new EterCharacter();
+    Blake->name = "Blake Lancaster";
+    Characters.push_back(Blake);
+    
+    
+    AbdulrahmanCharacter* Itachi = new AbdulrahmanCharacter();
+    Itachi->name = "Itachi";
+    Characters.push_back(Itachi);
+   //add characters here  ninjaCharacter* ninjaAlice = new ninjaChracter();
+    
+    AhmedalaliCharacter* DevilJin = new AhmedalaliCharacter();
+    DevilJin->name = "Devil Jin";
+    Characters.push_back(DevilJin); 
+    
+    babtainCharacter* TwoHeadedCamel = new babtainCharacter();
+    TwoHeadedCamel->name = "Two Headed Camel";
+    Characters.push_back(TwoHeadedCamel);
+    
+    MohammedCharacter* TheWolf = new MohammedCharacter();
+    TheWolf->name = "The Wolf";
+    Characters.push_back(TheWolf); 
+    
+    FaisalCharacter* BlackShark = new FaisalCharacter();
+    BlackShark->name = "BlackShark";
+    Characters.push_back(BlackShark);
+
+    
     
     //add character to play list
     Arena nightArena;
     nightArena.name="Night's Arena";
+    nightArena.desc="Night's Arena";
+    nightArena.homeCharacterName="nightRobot";
     Arenas.push_back(nightArena);
 
     Arena dayArena;
     dayArena.name="Day's Arena";
     Arenas.push_back(dayArena);
+    
+    Arena BambooJungle;
+    BambooJungle.name="BambooJungle's Arena";
+    BambooJungle.desc = "";
+    BambooJungle.homeCharacterName ="Itachi";
+    Arenas.push_back(BambooJungle);
+    
+    Arena BlackFalcon;
+    BlackFalcon.name="Black Falcon: Blake Lancaster's arena";
+    Arenas.push_back(BlackFalcon);
+    BlackFalcon.desc="";
+    BlackFalcon.homeCharacterName ="The Wolf";
+
+     Arena Lab;
+    Lab.name="Einstein’s Lab";
+    Lab.desc="Lasers, reflective mirrors, toxic gas, your worst nightmare has yet to come.";
+    Lab.homeCharacterName ="Einstein";
+    Arenas.push_back(Lab);
+    
+    Arena Unknown;
+    Unknown.name="Unknown";
+    Unknown.desc="Mysterious";
+    Unknown.homeCharacterName ="Pi";
+    Arenas.push_back(Unknown);
+    
 
     return 0;
 }
 /*  Notes for GameLoop
       //choose weapon
         //choose attack
-        //choose a guard or defend action
+        //choose a guard or defend actio
        // cout << "Combat is occuring" << endl;
         //   findWinner (bob, bill);
         //combat resolution
@@ -196,10 +269,32 @@ int main () {
             cout << "Please enter valid option: 0,1,2,3...or r for random." << endl;
         }
         // random p2 opponent
-        p2num = rand() % Characters.size() == 0;
-        cout << "Your opponent is:"  << Characters.at(p2num)->name << endl;
-        cout << "attack test:"  << Characters.at(p2num)->attack("test") << endl;
-
+        //p2num = rand() % Characters.size();
+        //cout << "Your opponent is:"  << Characters.at(p2num)->name << endl;
+        //cout << "attack test:"  << Characters.at(p2num)->attack("test") << endl;
+        showCharacters();
+        while (1) {
+            cout << "Pick your opponent: [0 - " << Characters.size() << "], r=random, {0}] ";
+            cin >> myCharacter;
+            cout << myCharacter;
+            //random character condition
+            if (myCharacter == "r") {
+                p2num = rand() % Characters.size() == 0;
+                cout << "Random character is:"  << Characters.at(p2num)->name << endl;
+                break;
+            }
+            if (myCharacter == "") {
+                myCharacter = "0";
+            }
+            //chose character condition
+            //if ( p1num = stoi(myCharacter)) {
+            p2num = atoi( myCharacter.c_str() );
+            if (( p2num >= 0 )||(p2num < Characters.size()) ) {
+                cout << "Chosen character is:"  << Characters.at(p2num)->name << endl;
+                break;
+            }
+            cout << "Please enter valid option: 0,1,2,3...or r for random." << endl;
+        }
 
         // list all the arenas
         showArenas();
