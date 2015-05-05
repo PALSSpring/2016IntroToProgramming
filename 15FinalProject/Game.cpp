@@ -93,6 +93,12 @@ int setup() {
     nightArena.homeCharacterName="nightRobot";
     Arenas.push_back(nightArena);
 
+    Arena yard;
+    yard.name="Night's Arena";
+    yard.desc="Night's Arena";
+    yard.homeCharacterName="nightRobot";
+    Arenas.push_back(yard);
+
     Arena dayArena;
     dayArena.name="Day's Arena";
     Arenas.push_back(dayArena);
@@ -104,23 +110,46 @@ int setup() {
     Arenas.push_back(BambooJungle);
     
     Arena BlackFalcon;
-    BlackFalcon.name="Black Falcon: Blake Lancaster's arena";
+    BlackFalcon.name="Black Falcon";
+    BlackFalcon.desc = "Abondened landmark.";
+    BlackFalcon.homeCharacterName ="Blake Lancaster";
     Arenas.push_back(BlackFalcon);
-    BlackFalcon.desc="";
-    BlackFalcon.homeCharacterName ="The Wolf";
-
-     Arena Lab;
+    
+    Arena Lab;
     Lab.name="Einstein’s Lab";
     Lab.desc="Lasers, reflective mirrors, toxic gas, your worst nightmare has yet to come.";
     Lab.homeCharacterName ="Einstein";
     Arenas.push_back(Lab);
     
+    Arena DeathDesert;
+    DeathDesert.name="DeathDesert's Arena";
+    DeathDesert.desc = "Camels, Sand, Saudis and oil";
+    DeathDesert.homeCharacterName ="zaincules";
+    Arenas.push_back(DeathDesert);
+    
     Arena Unknown;
     Unknown.name="Unknown";
-    Unknown.desc="Mysterious";
+    Unknown.desc="Mysterious dark place";
     Unknown.homeCharacterName ="Pi";
     Arenas.push_back(Unknown);
     
+    Arena Forest;
+    Forest.name="Forest";
+    Forest.desc="High trees and a long river";
+    Forest.homeCharacterName ="TheWolf";
+    Arenas.push_back(Forest);
+    
+     Arena hell;
+    hell.name="Einstein’s Lab";
+    Lab.desc="Lasers, reflective mirrors, toxic gas, your worst nightmare has yet to come.";
+    Lab.homeCharacterName ="Einstein";
+    Arenas.push_back(Lab);
+    
+    Arena Sea;
+    Sea.name="Sea"
+    Sea.desc="The deep, wide sea"
+    Sea.homecharacterName ="BlackShark"
+    Arenas.push_back
 
     return 0;
 }
