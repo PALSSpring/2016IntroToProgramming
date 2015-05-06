@@ -1,4 +1,4 @@
-TARGET = helloWhile
+TARGET = HelloWhile
 
 all: $(TARGET)
 
