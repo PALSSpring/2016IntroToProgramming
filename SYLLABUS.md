@@ -1,4 +1,4 @@
-#SYLLABUS 2015: Intro C++
+#SYLLABUS 2016: Intro C++
 Introduction to C++ using Arduino
 We will be covering the profesional practices of programming like version control. The course outline and
 materials are available in Github. Each student needs to create and account and clone to their own work area
@@ -7,12 +7,13 @@ coding will take place on https://c9.io. Class discussion will be held in https:
 to do code chat. That way I can talk about code properlly formatted and you the student can send me code
 examples that are easy to talk about and read. This chat channel will run the entire course.
 
-Spring 2015
+Spring 2016
 
-Tues: 1:30pm - 4:30pm
-
-Start: Jan 20, 2015
-End: May 12, 2015
+Spring Recess Begins: Saturday, March 12
+Spring Recess Begins: Sunday, March 20
+Semester Start: Jan 20, 2016
+Semester End: May 2, 2016
+Class Session every  Wed: 1:10pm - 4:30pm
 
 Grading Policy:
 Everyone starts at 0. Each week counts towards participation. The class is very hands on, learning, and doing
