@@ -26,6 +26,7 @@ Weekly, challenge problems will be done in class. As well as, smaller weekly cha
 There will be a final project at the end of class that demonstrates the application of the knowledge aquired during the class.
 
 Total Weeks: 16
+###Week 0: Getting started
 
 ###Week 1: Hello World
 * Hello World in C++
