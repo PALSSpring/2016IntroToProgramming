@@ -44,27 +44,27 @@ Total Weeks: 16
 * Getting input from the user
 * Introduction to variables
 * Coding math problems
-** Types of numbers
-** plus, minus, division, multiplication, mod, exponents
-** In class create a simple calculator
+ * Types of numbers
+ * plus, minus, division, multiplication, mod, exponents
+ * In class create a simple calculator
 * In the adventure story ask the user what should happen next.
-** Create Madlib fill in the blank adventure
-*** Incorporate a principle of mathematics into the adventure
+ * Create Madlib fill in the blank adventure
+  * Incorporate a principle of mathematics into the adventure
 
 ###Week 3: Code flow
 * Sequence of code execution
 * What do you when you want to evaluate input from the user?
-** if
-*** greater, lesser, equals
-*** different kinds of variables
-** looping
-*** How do you hand the user or player not entering the right data?
-*** while loops
-*** for loops
-** More kinds of variables
+ * if
+  * greater, lesser, equals
+  * different kinds of variables
+ * looping
+ * How do you hand the user or player not entering the right data?
+   * while loops
+   * for loops
+ * More kinds of variables
 * Fibonacci series example
 * Challenge Project Euler
-** Problems 1 and 2
+ * Problems 1 and 2
 
 ###Week 4: Organizing code
 * Introduction to functions
