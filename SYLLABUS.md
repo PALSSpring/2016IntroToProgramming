@@ -9,11 +9,14 @@ examples that are easy to talk about and read. This chat channel will run the en
 
 Spring 2016
 
-Spring Recess Begins: Saturday, March 12
-Spring Recess Begins: Sunday, March 20
-Semester Start: Jan 20, 2016
-Semester End: May 2, 2016
-Class Session every  Wed: 1:10pm - 4:30pm
+* Spring Recess Begins: Saturday, March 12
+* Spring Recess Begins: Sunday, March 20
+* Semester Start: Jan 20, 2016
+* Semester End: May 2, 2016
+* Class Session every  Wed: 1:10pm - 4:30pm
+
+Communication Channel:
+https://gitter.im/PALSSpring/2016
 
 Grading Policy:
 Everyone starts at 0. Each week counts towards participation. The class is very hands on, learning, and doing
@@ -68,10 +71,10 @@ Total Weeks: 16
 
 ###Week 4: Organizing code
 * Introduction to functions
-** How functions help prevent copy and pasting code
-** How to handle many different situations and requirements
+ * How functions help prevent copy and pasting code
+ * How to handle many different situations and requirements
 * Organize choose your own adventure into functions
-** Create a function that asks a question and verifies the a valid option was choosen.
+ * Create a function that asks a question and verifies the a valid option was choosen.
 
 
 ###Week 5: Introduction to Arduino with C++
@@ -87,28 +90,28 @@ Arduino works.
 * Continue porting the choose your own adventure to Arduino
 * Review using functions
 * Introduction character and string handling
-** serial gathering information and sending information
+ * serial gathering information and sending information
 * Bread board a simple circuit to collect input from the user
-** function like digitalRead() and analogRead() will be used
+ * function like digitalRead() and analogRead() will be used
 * More new syntax and working with objects
 * Difference between C and C++
 
 ###Week 7: Structures and Objects
 * Pointers
 * Structures
-** syntax and use
-** Incorporate into choose your own adventure
-** How to use in Arduino
+ * syntax and use
+ * Incorporate into choose your own adventure
+ * How to use in Arduino
 * Create character object for choose your own adventure
-** What name?
-** Creature
-** Health points?
+ * What name?
+ * Creature
+ * Health points?
 
 * Create a game pattern
-** What happens if your character dies?
-** Can the game restart?
-** Should someone win?
-** Does an adventure have a score?
+ * What happens if your character dies?
+ * Can the game restart?
+ * Should someone win?
+ * Does an adventure have a score?
 
 ###Week 8: How to write and share libraries
 * Use libraries
@@ -129,16 +132,17 @@ Arduino works.
 
 
 Integrate Goals:
-Version control with Git
-Collaborative project using push and pull
-Physical objects and virtual objects
-Code discussion
-Debugging physical and virtual projects
-Cloud coding and Local Coding
-Using the terminal (BASH)
-Compiling code from the terminal
-Compiling code from Makefiles
+* Version control with Git
+* Collaborative project using push and pull
+* Physical objects and virtual objects
+* Code discussion
+* Debugging physical and virtual projects
+* Cloud coding and Local Coding
+* Using the terminal (BASH)
+* Compiling code from the terminal
+C* ompiling code from Makefiles
 
-???standard template library?
-??OpenFrameWorks?
-?Firmata?
+Tools:
+* standard template library
+* OpenFrameWorks?
+* Firmata
