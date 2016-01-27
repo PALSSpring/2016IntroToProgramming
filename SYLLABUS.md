@@ -33,10 +33,10 @@ Total Weeks: 16
 * Introduction and find out what we all know about coding and c++
 * Introduce structure of course
 * Reference Materials are in Github
-** Create accounts and clone the semester's materials
+ * Create accounts and clone the semester's materials
 * Code Editor is Cloud9ide which is online code editing environment
-** Link Cloud9 account to your Github account
-** Clone your project from Github to http://c9.io
+ * Link Cloud9 account to your Github account
+ * Clone your project from Github to http://c9.io
 * Introduction to choose your own adventure
 * Create a story from everyone writing a sentence. Have the students write code that tells the story.
 
