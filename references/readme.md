@@ -97,6 +97,24 @@ true|false
 2.4e5 // 240000
 ```
 
+Data Types
+```
+void
+boolean (0,1, false, true)
+char (e.g. 'a'-128 to 127)
+unsigned char (0 to 255)
+byte (0 to 255)
+int (-32,768 to 32,767)
+unsigned int (0 to 65,535)
+word (0 to 65535)
+long (-2,146,483,648 to 2,147,483,647)
+unsigned long (0 to 4,294,967,285)
+float (-3.4028236E+38 to 3.4028235E+38)
+double (currently same as float)
+sizeof(myint) //returns 2 bytes
+```
+
+
 Qualifiers
 ```
 static //persists between calls
@@ -129,10 +147,14 @@ int() word()
 long() float()
 ```
 
-Conversion
+Strings: Char Array
 ```
-char() byte()
-int() word()
-long() float()
+char s1[15];
+char s2[8]={'c','h','i','p','k','i','t'};
+char s3[8]= {'c','h','i','p','k','i','t','\0'};
+//Above includes null termination
+char s4[] = "chipkit";
+char s5[8] = "chipkit";
+char s6[15] = "chipkit";  
 ```
 
