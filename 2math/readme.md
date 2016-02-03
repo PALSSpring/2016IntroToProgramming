@@ -1,5 +1,10 @@
 #Mathematics in C/C++
 
+##How do computers logic?
+* AND, OR, XOR, NOR, NAND
+* Algorithmic Logic Unit
+* Truth tables
+
 ##How do computers add?
 * What kinds of numbers exist?
 * How are those number represented?
@@ -7,6 +12,7 @@
 * Binary addition and overflow: https://www.youtube.com/watch?v=WN8i5cwjkSE
 
 ##Multiplication, and Division
+* ALU for math
 
 ##How are numbers represented?
 * binary,hecadecimal, octal
