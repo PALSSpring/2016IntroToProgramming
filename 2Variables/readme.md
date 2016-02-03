@@ -14,10 +14,12 @@ Ver much like scientific notation. Plus a bit for sign.
 Logical operations are also representated in C/C++. These are called booleans, and represent true or false. 
 
 ###Integers:
-`int` || 16 bit 
-`short` || 16 bit
-`long` || 32 bit
-`unsigned int` || 16 bit starts a 0
+name | bit
+--- | ---
+|`int` | 16 bit |
+|`short` | 16 bit|
+|`long` | 32 bit|
+|`unsigned int` | 16 bit starts a 0|
 
 ###Floating Point:
 `float`
