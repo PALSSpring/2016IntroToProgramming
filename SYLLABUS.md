@@ -140,7 +140,7 @@ Integrate Goals:
 * Cloud coding and Local Coding
 * Using the terminal (BASH)
 * Compiling code from the terminal
-C* ompiling code from Makefiles
+* Compiling code from Makefiles
 
 Tools:
 * standard template library

@@ -24,15 +24,11 @@ int max(unsigned int first, unsigned int second) {
  return max;   
 }
 
-
 int main() {
     //All the work goes here
     unsigned int aa = 8;
     unsigned int bb = 10;
-   
-    
     printf("max = %d\n", max(aa, bb));
-    printf("Time(NULL): %d, time(&tm) %d\n", time(NULL), time(&tm));
-    
+   // printf("Time(NULL): %d, time(&tm) %d\n", time(NULL), time(&tm));
  return 0;   
 }
