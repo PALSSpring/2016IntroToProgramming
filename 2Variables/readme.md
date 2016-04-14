@@ -36,7 +36,8 @@ name | bit
 
 ##Assignment and initialization of variables
 
-```int foo = 10;
+```
+int foo = 10;
 short foo = -10;
 long foo = 9999999;
 ```
