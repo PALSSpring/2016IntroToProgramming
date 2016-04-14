@@ -14,18 +14,18 @@ Ver much like scientific notation. Plus a bit for sign.
 Logical operations are also representated in C/C++. These are called booleans, and represent true or false. 
 
 ###Integers:
-name | bit
---- | ---
-|`int` | 16 bit |
-|`short` | 16 bit|
-|`long` | 32 bit|
-|`unsigned int` | 16 bit starts a 0|
+name | bits | min | max
+--- | --- | --- | ---
+|`int` | 16 bits |
+|`short` | 16 bits|
+|`long` | 32 bits|
+|`unsigned int` | 16 bits starts at 0|
 
 ###Floating Point:
 `float`
 `double`
 
-###Boolean: Logica Operators
+###Boolean: Logical Operators
 `bool` 
 
 ###Characters: single characters
