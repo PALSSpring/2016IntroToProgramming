@@ -43,7 +43,7 @@
     },
     "run": {
         "@path": "/.c9/runners",
-        "@runner": "C++ (simple)",
+        "@runner": "C++ (pedantic)",
         "configs": {
             "@inited": "true",
             "json()": {}
